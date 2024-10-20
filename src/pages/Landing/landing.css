@@ -97,7 +97,6 @@ p.two {
 
 
 .hero1 {
-    z-index: 1;
     display: flex;
     height: 40%;
     margin-top: 6%;
@@ -105,7 +104,6 @@ p.two {
 }
 
 .hero2 {
-    z-index: 2;
     display: flex;
     height: 40%;
     margin-top: 20%;
@@ -113,7 +111,6 @@ p.two {
 }
 
 .hero3 {
-    z-index: 3;
     display: flex;
     height: 40%;
     margin-top: 42%;
