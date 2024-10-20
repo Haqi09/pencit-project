@@ -1,6 +1,6 @@
-import Home from "./Home";
+import MainApp from "./MainApp";
 import Register from "./Register";
 import Login from "./Login";
 import Landing from "./Landing";
 
-export {Home, Login, Register, Landing}
+export {MainApp, Login, Register, Landing}
