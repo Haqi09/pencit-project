@@ -7,7 +7,6 @@
     background-color: #f0f0f0;
     position: relative;
     overflow: hidden;
-
 }
 
 .left {
@@ -17,14 +16,14 @@
 
 }
 
-.logo {
+.logo-landing {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 12rem;
 }
 
-.pencit {
+.pencit-landing {
     display: flex;
     color: #3498db;
     font-family: 'Dongle', sans-serif;

@@ -13,11 +13,11 @@ export const Landing = () => {
     <div className="landing-container">
         <div className='left'>
 
-          <div className='logo'>
+          <div className='logo-landing'>
           <img src={logo} alt="Pencit Logo" />
           </div>
 
-          <div className='pencit'>
+          <div className='pencit-landing'>
             <p>Pencit</p>
           </div>
 
