@@ -1,7 +1,7 @@
 import React from 'react'
 import './navbar.css';
 import logo from '../../../assets/image/logo_auth.png';
-import { House, Image, UserFocus } from 'phosphor-react';
+import { House, Image, UserCircle } from 'phosphor-react';
 
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a href="/profile">
-                        <UserFocus className="user-icon" size={40} weight="fill" />Profile
+                        <UserCircle className="user-icon" size={40} weight="fill" />Profile
                     </a>
                 </li>
             </ul>
