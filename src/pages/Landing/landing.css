@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Lexend+Deca:wght@500;600&display=swap');
+
+.landing-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.left {
+    flex :1;
+    background-color: white;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12rem;
+}
+
+.pencit {
+    display: flex;
+    color: #3498db;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    justify-content: center;
+    margin-bottom: -5rem;
+}
+
+.word {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+p.two {
+    margin-top: -1.5rem;
+}
+
+
+.lbutton {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.lrbutton {
+    width: 15%;
+}
+
+.lregister-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.llbutton {
+    width: 15%;
+}
+
+.llogin-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+.right {
+    width: 1206px;
+    display: flex;
+}
+
+
+.hero1 {
+    z-index: 1;
+    display: flex;
+    height: 40%;
+    margin-top: 6%;
+    margin-left: 45%;
+}
+
+.hero2 {
+    z-index: 2;
+    display: flex;
+    height: 40%;
+    margin-top: 20%;
+    margin-left: -80%;
+}
+
+.hero3 {
+    z-index: 3;
+    display: flex;
+    height: 40%;
+    margin-top: 45%;
+    margin-left: 5%;
+}
