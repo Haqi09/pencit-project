@@ -60,7 +60,11 @@
     font-weight: 400;
 }
 
-.house-icon, .image-icon, .user-icon {
+.logout-nav {
+    margin-top: 570px;
+}
+
+.house-icon, .image-icon, .user-icon, .logout-icon {
     margin-top: -5px;
     margin-right: 20px;
 }
