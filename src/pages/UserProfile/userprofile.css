@@ -1,0 +1,116 @@
+.userprofile {
+    background-color: #f0f0f0;
+    background-size: auto;
+    height: 100vh;
+}
+
+.padding-profile {
+    padding-top: 10%;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.profile-nav {
+    width: 900px;
+    position: relative;
+    z-index: 999;
+}
+
+.profile-nav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: white;
+}
+
+.profile-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 10px;
+}
+
+.profile-nav ul li a{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    transition: 300ms;
+    z-index: 1;
+}
+
+.profile-nav ul li a::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 45px;
+    width: 0%;
+    left: 0;
+    margin-left: -25%;
+    top: -10px;
+    border-radius:0px 0px 10px 10px;
+    transition: 300ms;
+    z-index: -1;
+}
+
+.profile-nav ul li a:hover {
+    color: #1d9bf0;
+}
+
+.profile-nav ul li a:hover::after {
+    width: 150%;
+}
+
+
+/*xx*/
+  
+  .profile-header {
+    display: flex;
+    align-items:center;
+    margin-top: -150px;
+    margin-left: -500px;
+    margin-bottom: 100px;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    background-color: #1d9bf0;
+  }
+  
+  .profile-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+    font-family: "Lexend Deca", sans-serif;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+    color: black;
+  }
+
+  .count  {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+  .tagline {
+    color: black;
+    font-weight: 400;
+  }
