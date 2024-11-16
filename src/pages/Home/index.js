@@ -39,14 +39,16 @@ const Home = () => {
       profilePic: picture2,
       postImage: picture2,
       timestamp: '17 Agustus 2024 - 20.00',
-      caption: 'Lihat seberapa imut kucing hitamku HAHAHA!!! Aku menemukannya di hutan ketika aku sedang menjelajah. Ia begitu kecil dan aku memberinya sosis yang aku akan makan ketika beristirahat LOL!!!'
+      caption: 'Lihat seberapa imut kucing hitamku HAHAHA!!! Aku menemukannya di hutan ketika aku sedang menjelajah. Ia begitu kecil dan aku memberinya sosis yang aku akan makan ketika beristirahat LOL!!!',
+      comments: sampleComments
     },
     {
       username: 'Tuan Bayangan3',
       profilePic: picture3,
       postImage: picture3,
       timestamp: '17 Agustus 2024 - 20.00',
-      caption: 'Lihat seberapa imut kucing hitamku HAHAHA!!! Aku menemukannya di hutan ketika aku sedang menjelajah. Ia begitu kecil dan aku memberinya sosis yang aku akan makan ketika beristirahat LOL!!!'
+      caption: 'Lihat seberapa imut kucing hitamku HAHAHA!!! Aku menemukannya di hutan ketika aku sedang menjelajah. Ia begitu kecil dan aku memberinya sosis yang aku akan makan ketika beristirahat LOL!!!',
+      comments: sampleComments
     }
   ];
 
