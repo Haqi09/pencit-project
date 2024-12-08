@@ -17,62 +17,43 @@
 
 
 .profile-nav {
-  width: 900px;
-  position: relative;
-  z-index: 999;
-}
-
-.profile-nav::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom: 1px solid #ddd;
 }
 
 .profile-nav ul {
   display: flex;
   list-style: none;
-  justify-content: center;
-  gap: 150px;
-  margin-top: 10px;
+  padding: 0;
+  margin: 0;
+  gap: 100px; /* Jarak antar tab */
 }
 
-.profile-nav ul li button{
+.profile-nav ul li {
   font-family: "Lexend Deca", sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
-  text-decoration: none;
-  color: black;
-  position: relative;
-  transition: 300ms;
-  z-index: 1;
-  border: none;
+  color: #333;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius:  10px 10px 0px 0px;/* Untuk efek rounded */
+  transition: all 0.3s ease;
 }
 
-.profile-nav ul li button::after {
-  content: "";
-  position: absolute;
-  background-color: white;
-  height: 45px;
-  width: 0%;
-  left: 0;
-  margin-left: -25%;
-  top: -10px;
-  border-radius:0px 0px 10px 10px;
-  transition: 300ms;
-  z-index: -1;
+.profile-nav ul li:hover {
+  background-color: #1d9bf0; /* Warna hover biru muda */
 }
 
-.profile-nav ul li button:hover {
-  color: #1d9bf0;
+.profile-nav ul li.active {
+  background-color: white; /* Warna biru aktif */
+  color: #1d9bf0; /* Teks putih untuk tab aktif */
+  font-weight: 500;
 }
 
-.profile-nav ul li button:hover::after {
-  width: 150%;
-}
 
 
 
@@ -82,9 +63,9 @@
 .profile-header {
   display: flex;
   align-items:center;
-  margin-top: 0;
+  margin-top: 50px;
   margin-left: -500px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .profile-picture {
@@ -159,4 +140,32 @@
 .posts-section {
   margin-top: 2rem;
   width: 100%;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.post {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.post:hover {
+  transform: scale(1.05);
+}
+
+.post-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
